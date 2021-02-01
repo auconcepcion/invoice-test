@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Dashboard</title> 
+
+	<link rel="icon" href="src/favicon.ico">
+	<link rel="stylesheet" href="src/main.css">
+	<link rel="stylesheet" href="src/table.css">
+	</head> 
+
+	<body> 
+<!-- Navigation --> 
+	<ul>	
+		<li><a class="active" href="lobby.html">Dashboard</a></li>
+		<li class="dropdown">
+			<a href="#!" class="dropbtn">Clients</a>
+			<div class="dropdown-content">
+				<a href="#">Add New Client</a>
+				<a href="#">View Clients</a>
+			</div> 
+			</li>
+		
+		<li class="dropdown">
+			<a href="#!" class="dropbtn">Invoices</a>
+			<div class="dropdown-content">
+				<a href="#">Add New Invoice</a>
+				<a href="#">View Invoices</a>
+			</div> 
+			</li>
+		<li class="dropdown">
+			<a href="#!" class="dropbtn">Payments</a>
+			<div class="dropdown-content">
+				<a href="#">Add New Payment</a>
+				<a href="#">View Payments</a>
+			</div> 
+			</li>
+		<li class="dropdown">
+			<a href="#!" class="dropbtn">Products</a>
+			<div class="dropdown-content">
+				<a href="#">Add New Product</a>
+				<a href="#">View Products</a>
+			</div> 
+			</li>
+	
+		<li class="right">
+			<a href="#!">Logout</a></li>
+		
+		<li class="right dropdown">
+			<a href="#!" class"dropbtn">Settings</a>
+			<div class="dropdown-content">
+				<a href="#">Admin</a>
+				<a href="#">Add New User</a>
+			</div>
+			</li>
+		<li class="right dropdown">
+			<a href="#!" class="dropbtn">User</a>
+			<div class="dropdown-content">
+				<a href="#">User Settings</a>
+				<a href="#">User Profile</a>
+			</div> 
+			</li>	
+	</ul>
+	<!-- Quick Action Panel --> 
+	<div class="quick-action-panel"> 
+<!--- Table: Overview Invoices --> 
+		<h2>Client Overview</h2>
+	<table id="customers">
+		<tr>
+			<th>Name</th>
+			<th>Status</th>
+			<th>Balance</th>
+		</tr>
+		<tr>
+			<td>Marc Jacobs</td>
+			<td>Unpaid</td>
+			<td>3000.00</td>
+		</tr>
+		<tr>
+			<td>Marc Jacobs</td>
+			<td>Unpaid</td>
+			<td>3000.00</td>
+		</tr>
+		<tr>
+			<td>Marc Jacobs</td>
+			<td>Unpaid</td>
+			<td>3000.00</td>
+		</tr>
+		<tr>
+			<td>Leonardo Da Vinci</td>
+			<td>Unpaid</td>
+			<td>300000.00</td>
+		</tr>
+		<tr>
+			<td>Marc Jacobs</td>
+			<td>Unpaid</td>
+			<td>3000.00</td>
+		</tr>
+	</table>
+		<h2>Invoice Overview</h2>
+	<table id="invoices">
+		<tr>
+			<td>Draft</td>
+			<td>P0.00</td>
+		</tr>
+		<tr>
+			<td>Sent</td>
+			<td>P0.00</td>
+		</tr>
+		<tr>
+			<td>Viewed</td>
+			<td>P0.00</td>
+		</tr>
+		<tr>
+			<td>Paid</td>
+			<td>300000.00</td>
+		</tr>
+		
+	</table>
+	</body>
+</html> 
+
